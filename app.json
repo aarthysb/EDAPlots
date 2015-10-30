@@ -1,6 +1,6 @@
 {
   "name": "PHP Getting Started",
   "description": "A barebones PHP app that makes use of the Silex web framework",
-  "repository": "",
+  "repository": "https://github.com/aarthysb/EDAPlots",
   "addons": []
 }
