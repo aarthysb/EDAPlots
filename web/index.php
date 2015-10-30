@@ -20,7 +20,7 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig');
 });
 $app->get('/plot2', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
+  $app['monolog']->addDebug('plot2');
   return $app['twig']->render('plot2.twig');
 });
 
